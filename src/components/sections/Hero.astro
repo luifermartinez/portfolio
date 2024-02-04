@@ -175,6 +175,16 @@ const SOCIAL_ICONS: Record<string, any> = {
   }
 
   @media print {
+    .container {
+      flex-direction: row;
+      gap: 1rem;
+    }
+
+    .info {
+      align-items: flex-start;
+      text-align: start;
+    }
+
     .print {
       display: block;
     }
