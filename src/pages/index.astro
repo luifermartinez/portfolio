@@ -1,13 +1,12 @@
 ---
 import Hero from "@/components/sections/Hero.astro";
-import Layout from "@/layouts/Layout.astro";
+import Layout from "../layouts/Layout.astro";
 import About from "@/components/sections/About.astro";
 import Experience from "@/components/sections/Experience.astro";
 import Projects from "@/components/sections/Projects.astro";
 import Skills from "@/components/sections/Skills.astro";
 import Education from "@/components/sections/Education.astro";
 import KeyboardManager from "@/components/KeyboardManager.astro";
-
 import { basics } from "@cv";
 import Languages from "@/components/sections/Languages.astro";
 const { name, label, image, summary } = basics;
@@ -18,7 +17,7 @@ const { name, label, image, summary } = basics;
   description={summary}
   image={image}
 >
-  <main id="container">
+  <main>
     <Hero />
     <About />
     <Experience />
@@ -31,7 +30,7 @@ const { name, label, image, summary } = basics;
 </Layout>
 
 <style>
-  #container {
+  main {
     padding: 4rem;
     margin: auto;
     width: 100%;
