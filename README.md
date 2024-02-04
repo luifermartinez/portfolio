@@ -9,3 +9,5 @@ Este proyecto es un CV personal que muestra información sobre mi formación aca
 ## Tecnologías utilizadas
 
 - Astro
+
+### Para modificar los datos mostrados, modificar la información en el archivo `cv.json` que se encuentra en la raíz del proyecto.
