@@ -10,4 +10,11 @@ Este proyecto es un CV personal que muestra información sobre mi formación aca
 
 - Astro
 
-### Para modificar los datos mostrados, modificar la información en el archivo `cv.json` que se encuentra en la raíz del proyecto.
+## Modificación
+
+Para modificar los datos mostrados, modificar la información en el archivo `cv.json` que se encuentra en la raíz del proyecto.
+
+## Créditos
+
+- [Astro](https://astro.build/)
+- [BartoszJarocki](https://github.com/BartoszJarocki/cv)
