@@ -6,38 +6,33 @@ import { projects } from "@cv";
 <Section title="Proyectos">
   <ul>
     {
-      projects.map(
-        (
-          { name, description, startDate, endDate, url, highlights, isActive },
-          index
-        ) => {
-          return (
-            <li>
-              <article>
-                <header>
-                  <h3>
-                    <a
-                      href={url}
-                      title={`Ver el proyecto ${name}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {name}
-                    </a>
-                    {isActive && <span>&bull;</span>}
-                  </h3>
-                  <p>{description}</p>
-                </header>
-                <footer>
-                  {highlights.map((highlight) => (
-                    <span>{highlight}</span>
-                  ))}
-                </footer>
-              </article>
-            </li>
-          );
-        }
-      )
+      projects.map(({ name, description, url, highlights, isActive }) => {
+        return (
+          <li>
+            <article>
+              <header>
+                <h3>
+                  <a
+                    href={url}
+                    title={`Ver el proyecto ${name}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {name}
+                  </a>
+                  {isActive && <span>&bull;</span>}
+                </h3>
+                <p>{description}</p>
+              </header>
+              <footer>
+                {highlights.map((highlight) => (
+                  <span>{highlight}</span>
+                ))}
+              </footer>
+            </article>
+          </li>
+        );
+      })
     }
   </ul>
 </Section>
