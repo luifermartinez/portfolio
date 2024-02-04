@@ -10,10 +10,14 @@ import KeyboardManager from "@/components/KeyboardManager.astro";
 
 import { basics } from "@cv";
 import Languages from "@/components/sections/Languages.astro";
-const { name, label } = basics;
+const { name, label, image } = basics;
 ---
 
-<Layout title={`Portafolio de ${name} - ${label}`}>
+<Layout
+  title={`Portafolio de ${name} - ${label}`}
+  description={label}
+  image={image}
+>
   <main>
     <Hero />
     <About />
