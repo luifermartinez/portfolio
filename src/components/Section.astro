@@ -2,13 +2,12 @@
 interface Props {
   title?: string;
   startOfPage?: boolean;
-  first?: boolean;
 }
 
-const { title, startOfPage, first } = Astro.props;
+const { title, startOfPage } = Astro.props;
 ---
 
-<section data-start={startOfPage} data-first={first}>
+<section data-start={startOfPage}>
   {title && <h2>{title}</h2>}
   <slot />
 </section>

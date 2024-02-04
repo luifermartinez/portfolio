@@ -1,0 +1,226 @@
+{
+  "basics": {
+    "name": "Luis Fernando Martínez",
+    "label": "Full Stack Developer with more than 3 years of experience",
+    "image": "/portfolio/me.png",
+    "email": "thelm132@gmail.com",
+    "phone": "58 4125509739",
+    "url": "https://www.linkedin.com/in/luifer132/",
+    "summary": "Developer with 3 years of work experience contributing to projects of different types that range from the Front-end using ReactJS, NextJS, Svelte, among others, layout, REST API integrations, GraphQL, also supporting Back-end projects using Native NodeJS with Express and some ORM for database administration, or complex back-ends with NestJS. ",
+    "location": {
+      "address": "",
+      "postalCode": "3001",
+      "city": "Barquisimeto",
+      "countryCode": "GO",
+      "region": "Venezuela"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "luifer132",
+        "url": "https://www.linkedin.com/in/luifer132/"
+      },
+      {
+        "network": "GitHub",
+        "username": "luifermartinez",
+        "url": "https://github.com/luifermartinez"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Orbis Data",
+      "position": "Full Stack Developer",
+      "startDate": "2023-08-16",
+      "endDate": null,
+      "summary": "I participated in the design of mockups to present the client with the proposal for the web interface of the internal system, using tools such as Figma. ",
+      "highlights": []
+    },
+    {
+      "name": "Archangel Solutions",
+      "position": "Full Stack Developer",
+      "startDate": "2020-07-01",
+      "endDate": "2023-08-01",
+      "summary": "Place where I acquired and developed as a fullstack developer, using the technologies required for the different projects that were assigned to me. ",
+      "highlights": []
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Jesús Obrero University Institute",
+      "url": "https://www.iujobarquisimeto.edu.ve/",
+      "area": "Computing",
+      "studyType": "Higher University Technician (TSU) in Computer Science",
+      "startDate": "2017-03-01",
+      "endDate": "2022-10-01",
+      "description": "A technical professional in Information Systems who can perform analysis, evaluation, design, development and implementation of IT solutions, as well as operate and manage projects of different levels and complexity with effectiveness and efficiency.",
+      "score": "15.3",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "FullStack Development",
+      "level": "3 years",
+      "keywords": [
+        "javascript",
+        "Typescript",
+        "react",
+        "NextJS",
+        "Node.js",
+        "Express",
+        "NestJS",
+        "SQL",
+        "MongoDB",
+        "Svelte",
+        "SvelteKit"
+      ]
+    },
+    {
+      "name": "UI/UX Design",
+      "level": "Experienced",
+      "keywords": ["Mockup Design", "UI/UX Design"]
+    },
+    {
+      "name": "API Integration",
+      "level": "Experienced",
+      "keywords": ["REST API", "GraphQL"]
+    },
+    {
+      "name": "WebSockets Integration",
+      "level": "Experienced",
+      "keywords": ["WebSockets", "socket.io"]
+    },
+    {
+      "name": "Mobile Development",
+      "level": "Experienced",
+      "keywords": ["ReactNative", "Expo"]
+    },
+    {
+      "name": "Docker",
+      "level": "Experienced",
+      "keywords": ["Docker", "Docker Compose"]
+    },
+    {
+      "name": "Payment Methods Integration",
+      "level": "Experienced",
+      "keywords": ["Stripe", "PayPal", "MercadoPago"]
+    },
+    {
+      "name": "SEO",
+      "level": "Experienced",
+      "keywords": ["SEO", "OpenGraph", "Twitter Cards"]
+    },
+    {
+      "name": "Performance Optimization",
+      "level": "Experienced",
+      "keywords": [
+        "Web Performance Optimization",
+        "Mobile Performance Optimization"
+      ]
+    },
+    {
+      "name": "Agile Methodologies",
+      "level": "Experienced",
+      "keywords": ["Scrum", "Kanban"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Intermediate"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [
+    {
+      "name": "Homelan",
+      "startDate": "2021-01-08",
+      "endDate": "2023-08-16",
+      "description": "Management of properties and commercial establishments.",
+      "isActive": true,
+      "highlights": [
+        "Web development with ReactJS",
+        "REST API Integration",
+        "Authentication with JWT",
+        "Role validation"
+      ],
+      "url": "https://homelanapp.com/"
+    },
+    {
+      "name": "Ezylegal",
+      "startDate": "2022-02-15",
+      "endDate": "2023-06-01",
+      "description": "Connection between lawyers and clients.",
+      "isActive": true,
+      "highlights": [
+        "Web and backend maintenance with NextJS and NestJS",
+        "Adding features",
+        "SEO Optimization",
+        "Migration to microservices with NestJS"
+      ],
+      "url": "https://www.ezylegal.in/"
+    },
+    {
+      "name": "Send it",
+      "startDate": "2021-10-28",
+      "endDate": "2023-08-05",
+      "description": "Management of package shipments.",
+      "isActive": true,
+      "highlights": [
+        "Driver tracking in real time",
+        "PayPal and MercadoPago integration",
+        "React Native Expo"
+      ],
+      "url": "https://www.instagram.com/eenvios_/"
+    },
+    {
+      "name": "Podcasts APP",
+      "startDate": "2023-08-11",
+      "endDate": "2023-08-15",
+      "description": "Mobile application to listen to podcasts.",
+      "isActive": true,
+      "highlights": [
+        "React Native Expo",
+        "REST API Integration",
+        "Audio Player",
+        "Podcast API"
+      ],
+      "url": "https://github.com/luifermartinez/podcasts-app"
+    },
+    {
+      "name": "Monoma Pokemon",
+      "startDate": "2023-06-25",
+      "endDate": "2023-06-26",
+      "description": "Web application to view pokemon information.",
+      "isActive": true,
+      "highlights": ["Technical test", "ReactJS", "TailwindCSS", "REST API"],
+      "url": "https://monoma-tec.vercel.app/"
+    },
+    {
+      "name": "Wencold",
+      "startDate": "2022-23-04",
+      "endDate": "2022-06-25",
+      "description": "Inventory and sales management system for refrigeration products.",
+      "isActive": false,
+      "highlights": [
+        "ReactJS",
+        "REST API",
+        "JWT Auth",
+        "Role validation",
+        "NodeExpress",
+        "MySQL"
+      ],
+      "url": null
+    }
+  ]
+}
