@@ -5,4 +5,8 @@ export default defineConfig({
   integrations: [],
   site: "https://luifermartinez.github.io",
   base: "/portfolio",
+  output: 'static',
+  build: {
+    inlineStylesheets: 'always'
+  }
 });
