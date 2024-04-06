@@ -4,7 +4,7 @@ import { defineConfig } from "astro/config";
 export default defineConfig({
   integrations: [],
   site: "https://luifermartinez.github.io",
-  base: "/portfolio",
+  base: './',
   output: 'static',
   build: {
     inlineStylesheets: 'always'
