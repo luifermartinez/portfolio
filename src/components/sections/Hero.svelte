@@ -1,21 +1,22 @@
----
-import { basics } from "@cv";
-import Section from "@/components/Section.astro";
-import Mail from "@/icons/Mail.astro";
-import Phone from "@/icons/Phone.astro";
-import Github from "@/icons/Github.astro";
-import Linkedin from "@/icons/LinkedIn.astro";
-import WorldMap from "@/icons/WorldMap.astro";
+<script lang="ts">
+  import { getLocale } from "@/utils";
+  import Section from "@/components/Section.svelte";
+  import Mail from "@/icons/Mail.svelte";
+  import Phone from "@/icons/Phone.svelte";
+  import Github from "@/icons/Github.svelte";
+  import Linkedin from "@/icons/LinkedIn.svelte";
+  import WorldMap from "@/icons/WorldMap.svelte";
 
-const { name, label, email, image, location, phone, profiles, url } = basics;
+  const { name, label, email, image, location, phone, profiles, url } =
+    getLocale().basics;
 
-const { city, region } = location;
+  const { city, region } = location;
 
-const SOCIAL_ICONS: Record<string, any> = {
-  GitHub: Github,
-  LinkedIn: Linkedin,
-};
----
+  const SOCIAL_ICONS: Record<string, any> = {
+    GitHub: Github,
+    LinkedIn: Linkedin,
+  };
+</script>
 
 <Section>
   <div class="container">
@@ -36,46 +37,37 @@ const SOCIAL_ICONS: Record<string, any> = {
         </div>
       </footer>
       <footer class="no-print">
-        {
-          email && (
-            <a
-              href={`mailto:${email}`}
-              title={`Enviar un correo electróniuco a ${name}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Mail />
-            </a>
-          )
-        }
-        {
-          phone && (
-            <a
-              href={`tel:${phone}`}
-              title={`Llamar a ${name}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Phone />
-            </a>
-          )
-        }
-        {
-          profiles.map(({ network, url }) => {
-            const Icon = SOCIAL_ICONS[network];
+        {#if email}
+          <a
+            href={`mailto:${email}`}
+            title={`Enviar un correo electróniuco a ${name}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Mail />
+          </a>
+        {/if}
+        {#if phone}
+          <a
+            href={`tel:${phone}`}
+            title={`Llamar a ${name}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Phone />
+          </a>
+        {/if}
 
-            return (
-              <a
-                href={url}
-                title={`Visitar el perfil de ${name} en ${network}`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Icon />
-              </a>
-            );
-          })
-        }
+        {#each profiles as profile}
+          <a
+            href={profile.url}
+            title={`Visitar el perfil de ${name} en ${profile.network}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svelte:component this={SOCIAL_ICONS[profile.network]} />
+          </a>
+        {/each}
       </footer>
     </div>
     <figure>

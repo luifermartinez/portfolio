@@ -1,14 +1,10 @@
----
-interface Props {
-  title?: string;
-  startOfPage?: boolean;
-}
-
-const { title, startOfPage } = Astro.props;
----
+<script lang="ts">
+  export let title: string = ''
+  export let startOfPage: boolean = false;
+</script>
 
 <section data-start={startOfPage}>
-  {title && <h2>{title}</h2>}
+  {#if title}<h2>{title}</h2>{/if}
   <slot />
 </section>
 

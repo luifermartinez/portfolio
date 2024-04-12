@@ -1,17 +1,19 @@
----
-import Section from "@/components/Section.astro";
-import { skills } from "@cv";
----
+<script lang="ts">
+  import Section from "@/components/Section.svelte";
+  import { getLocale } from "@/utils";
 
-<Section title="Habilidades">
+  const { skills, locale } = getLocale();
+
+  const title = locale === "es" ? "Habilidades" : "Skills";
+</script>
+
+<Section {title}>
   <ul>
-    {
-      skills.map(({ name }) => (
-        <li>
-          <span>{name}</span>
-        </li>
-      ))
-    }
+    {#each skills as { name }}
+      <li>
+        <span>{name}</span>
+      </li>
+    {/each}
   </ul>
 </Section>
 

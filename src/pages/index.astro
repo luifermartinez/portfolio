@@ -1,15 +1,16 @@
 ---
-import Hero from "@/components/sections/Hero.astro";
+import Hero from "@/components/sections/Hero.svelte";
 import Layout from "@/layouts/Layout.astro";
-import About from "@/components/sections/About.astro";
-import Experience from "@/components/sections/Experience.astro";
-import Projects from "@/components/sections/Projects.astro";
-import Skills from "@/components/sections/Skills.astro";
-import Education from "@/components/sections/Education.astro";
+import About from "@/components/sections/About.svelte";
+import Experience from "@/components/sections/Experience.svelte";
+import Projects from "@/components/sections/Projects.svelte";
+import Skills from "@/components/sections/Skills.svelte";
+import Education from "@/components/sections/Education.svelte";
 import KeyboardManager from "@/components/KeyboardManager.astro";
 
 import { basics } from "@cv";
-import Languages from "@/components/sections/Languages.astro";
+import Languages from "@/components/sections/Languages.svelte";
+import LanguageSelector from "@/components/LanguageSelector.svelte";
 const { name, label, image, summary } = basics;
 ---
 
@@ -19,13 +20,14 @@ const { name, label, image, summary } = basics;
   image={image}
 >
   <main>
-    <Hero />
-    <About />
-    <Experience />
-    <Education />
-    <Projects />
-    <Skills />
-    <Languages />
+    <LanguageSelector client:only />
+    <Hero client:only />
+    <About client:only />
+    <Experience client:only />
+    <Education client:only />
+    <Projects client:only />
+    <Skills client:only />
+    <Languages client:only />
   </main>
   <KeyboardManager />
 </Layout>
