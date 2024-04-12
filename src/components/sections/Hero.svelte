@@ -28,7 +28,7 @@
         {label}
       </h2>
       <span>
-        <WorldMap />
+        <svelte:component this={WorldMap} />
         {city}, {region}
       </span>
       <footer class="print">
@@ -44,7 +44,7 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Mail />
+            <svelte:component this={Mail} />
           </a>
         {/if}
         {#if phone}
@@ -54,7 +54,7 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Phone />
+            <svelte:component this={Phone} />
           </a>
         {/if}
 
