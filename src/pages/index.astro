@@ -20,14 +20,14 @@ const { name, label, image, summary } = basics;
   image={image}
 >
   <main>
-    <LanguageSelector client:only />
-    <Hero client:only />
-    <About client:only />
-    <Experience client:only />
-    <Education client:only />
-    <Projects client:only />
-    <Skills client:only />
-    <Languages client:only />
+    <LanguageSelector client:only="svelte" />
+    <Hero client:only="svelte" />
+    <About client:only="svelte" />
+    <Experience client:only="svelte" />
+    <Education client:only="svelte" />
+    <Projects client:only="svelte" />
+    <Skills client:only="svelte" />
+    <Languages client:only="svelte" />
   </main>
   <KeyboardManager />
 </Layout>
