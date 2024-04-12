@@ -3,17 +3,9 @@
   "compilerOptions": {
     "baseUrl": "/Users/luismartinez/Proyectos/Personal/portfolio",
     "paths": {
-      "@cv": [
-        "./cv.json"
-      ],
-      "@cv-en": [
-        "./cv-en.json"
-      ],
-      "@/*": [
-        "src/*"
-      ]
-    },
-    "jsx": "react-jsx",
-    "jsxImportSource": "react"
+      "@cv": ["./cv.json"],
+      "@cv-en": ["./cv-en.json"],
+      "@/*": ["src/*"]
+    }
   }
 }
