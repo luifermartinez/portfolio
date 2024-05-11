@@ -20,11 +20,4 @@
     line-height: 1.5;
     font-size: 1.5rem;
   }
-
-  @media print {
-    section[data-start] {
-      page-break-before: always;
-      margin-top: 3rem;
-    }
-  }
 </style>
