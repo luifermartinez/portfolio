@@ -32,12 +32,12 @@
       "name": "Orbis Data",
       "position": "Full Stack Developer",
       "startDate": "2023-08-16",
-      "endDate": null,
+      "endDate": "2024-04-05",
       "summary": "I participated in the design of mockups to present to the client the proposal of the web interface of the internal system, using tools such as Figma. I made the layout of web interfaces with technologies such as Typescript, React, Mui, Tailwind, Axios, Node.js, HTML and CSS, following web quality and accessibility standards. I integrated the internal system with the Alfresco content management system, using its REST API. I used tools like Docker and SonarLint to facilitate development, deployment and code review.",
       "highlights": []
     },
     {
-      "name": "Archangel Solutions",
+      "name": "Arcangel Soluciones",
       "position": "Full Stack Developer",
       "startDate": "2020-07-01",
       "endDate": "2023-08-01",
