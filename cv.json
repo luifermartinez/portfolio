@@ -32,7 +32,7 @@
       "name": "Orbis Data",
       "position": "Full Stack Developer",
       "startDate": "2023-08-16",
-      "endDate": null,
+      "endDate": "2024-04-05",
       "summary": "Participé en el diseño de mockups para presentar al cliente la propuesta de la interfaz web del sistema interno, utilizando herramientas como Figma. Realicé la maquetación de interfaces web con tecnologías como Typescript, React, Mui, Tailwind, Axios, Node.js, HTML y CSS, siguiendo los estándares de calidad y accesibilidad web. Integré el sistema interno con el gestor de contenidos Alfresco, utilizando su API REST. Utilicé herramientas como Docker y SonarLint para facilitar el desarrollo, el despliegue y la revisión del código.",
       "highlights": []
     },
