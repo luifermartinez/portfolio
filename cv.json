@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Luis Fernando Martínez",
-    "label": "Full Stack Developer con más de 3 años de experiencia",
+    "label": "Full Stack Developer con 4 años de experiencia",
     "image": "/portfolio/me.png",
     "email": "thelm132@gmail.com",
     "phone": "+58 4125509739",
     "url": "https://www.linkedin.com/in/luifer132/",
-    "summary": "Desarrollador con 3 años de experiencia laboral contribuyendo en proyectos de distintas índoles que abarcan desde el Front-end usando ReactJS, NextJS, Svelte, entre otros, maquetación, integraciones de API REST, GraphQL, igualmente apoyando en proyectos de Back-end haciendo uso de NodeJS nativo con Express y algún ORM para la administración de las bases de datos, o Back-ends complejos con NestJS. También cuento con experiencia en desarrollo de aplicaciones móviles usando React Native + Expo.",
+    "summary": "Desarrollador con 4 años de experiencia laboral contribuyendo en proyectos de distintas índoles que abarcan desde el Front-end usando ReactJS, NextJS, VueJS, Svelte, entre otros, maquetación, integraciones de API REST, GraphQL, igualmente apoyando en proyectos de Back-end haciendo uso de NodeJS nativo con Express y algún ORM para la administración de las bases de datos, o Back-ends complejos con NestJS. También cuento con experiencia en desarrollo de aplicaciones móviles usando React Native + Expo.",
     "location": {
       "address": "",
       "postalCode": "3001",
@@ -64,8 +64,8 @@
   "publications": [],
   "skills": [
     {
-      "name": "FullStack Development",
-      "level": "3 years",
+      "name": "Desarrollo FullStack",
+      "level": "4 años",
       "keywords": [
         "Javascript",
         "Typescript",
@@ -77,55 +77,62 @@
         "SQL",
         "MongoDB",
         "Svelte",
-        "SvelteKit"
+        "SvelteKit",
+        "VueJS",
+        "HTML",
+        "CSS",
+        "TailwindCSS",
+        "Bootstrap",
+        "Material-UI",
+        "Ant Design"
       ]
     },
     {
-      "name": "UI/UX Design",
-      "level": "Experienced",
-      "keywords": ["Mockup Design", "UI/UX Design"]
+      "name": "Diseño UI/UX",
+      "level": "Experimentado",
+      "keywords": ["Diseño de Mockups", "Diseño UI/UX"]
     },
     {
-      "name": "API Integration",
-      "level": "Experienced",
-      "keywords": ["REST API", "GraphQL"]
+      "name": "Integración de API",
+      "level": "Experimentado",
+      "keywords": ["API REST", "GraphQL"]
     },
     {
-      "name": "WebSockets Integration",
-      "level": "Experienced",
+      "name": "Integración de WebSockets",
+      "level": "Experimentado",
       "keywords": ["WebSockets", "socket.io"]
     },
     {
-      "name": "Mobile Development",
-      "level": "Experienced",
+      "name": "Desarrollo Móvil",
+      "level": "Experimentado",
       "keywords": ["React Native", "Expo"]
     },
     {
       "name": "Docker",
-      "level": "Experienced",
+      "level": "Experimentado",
       "keywords": ["Docker", "Docker Compose"]
     },
     {
-      "name": "Paymenth Methods Integration",
-      "level": "Experienced",
+      "name": "Integración de Métodos de Pago",
+      "level": "Experimentado",
       "keywords": ["Stripe", "Paypal", "MercadoPago"]
     },
     {
       "name": "SEO",
-      "level": "Experienced",
+      "level": "Experimentado",
       "keywords": ["SEO", "OpenGraph", "Twitter Cards"]
     },
     {
-      "name": "Performance Optimization",
-      "level": "Experienced",
+      "name": "Optimización de Rendimiento",
+      "level": "Experimentado",
       "keywords": [
-        "Web Performance Optimization",
-        "Mobile Performance Optimization"
+        "Optimización de Rendimiento Web",
+        "Optimización de Rendimiento Móvil"
       ]
     },
     {
-      "name": "Agile Methodologies",
-      "level": "Experienced",
+      "name": "Metodologías Ágiles",
+      "level": "Experimentado",
       "keywords": ["Scrum", "Kanban"]
     }
   ],
