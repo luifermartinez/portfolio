@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Luis Fernando Martinez",
-    "label": "Full Stack Developer with more than 3 years of experience",
+    "label": "Full Stack Developer with 4 years of experience",
     "image": "/portfolio/me.png",
     "email": "thelm132@gmail.com",
     "phone": "+58 4125509739",
     "url": "https://www.linkedin.com/in/luifer132/",
-    "summary": "Developer with 3 years of work experience contributing in projects of different types ranging from Front-end using ReactJS, NextJS, Svelte, among others, layout, REST API integrations, GraphQL, also supporting in Back-end projects using native NodeJS with Express and some ORM for database management, or complex Back-ends with NestJS. I also have experience in mobile app development using React Native + Expo.",
+    "summary": "Developer with 4 years of work experience contributing in projects of different types ranging from Front-end using ReactJS, NextJS, VueJS, Svelte, among others, layout, REST API integrations, GraphQL, also supporting in Back-end projects using native NodeJS with Express and some ORM for database management, or complex Back-ends with NestJS. I also have experience in mobile app development using React Native + Expo.",
     "location": {
       "address": "",
       "postalCode": "3001",
@@ -78,7 +78,15 @@
         "SQL",
         "MongoDB",
         "Svelte",
-        "SvelteKit"
+        "SvelteKit",
+        "VueJS",
+        "Vite",
+        "TailwindCSS",
+        "Bootstrap",
+        "MaterialUI",
+        "ChakraUI",
+        "HTML",
+        "CSS"
       ]
     },
     {
