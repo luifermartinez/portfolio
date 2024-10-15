@@ -29,6 +29,14 @@
   },
   "work": [
     {
+      "name": "Reservándonos",
+      "position": "Full Stack Developer",
+      "startDate": "2024-07-11",
+      "endDate": null,
+      "summary": "Desarrollé interfaces web utilizando VueJS, mejorando la interactividad y experiencia del usuario. Implementé la internacionalización del sitio web, permitiendo su uso en múltiples idiomas y expandiendo su alcance global. Maqueté diseños web desde Figma a código, asegurando la fidelidad al diseño original y la responsividad en diversos dispositivos. Integré API REST para conectar el front-end con servicios backend, optimizando el flujo de datos y la funcionalidad del sitio. Optimizé el código, mejorando el rendimiento y la mantenibilidad del proyecto.",
+      "highlights": []
+    },
+    {
       "name": "Orbis Data",
       "position": "Full Stack Developer",
       "startDate": "2023-08-16",

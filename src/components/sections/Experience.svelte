@@ -4,8 +4,10 @@
 
   const { work, locale } = getLocale();
 
+  const present = getLocale().locale === "es" ? "Presente" : "Present";
+
   const formatDate = (date: string | undefined | null) => {
-    return date ? new Date(date).getFullYear() : "Present";
+    return date ? new Date(date).getFullYear() : present;
   };
 
   const title = locale === "es" ? "Experiencia" : "Experience";
