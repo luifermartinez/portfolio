@@ -160,6 +160,22 @@
   "references": [],
   "projects": [
     {
+      "name": "Reservándonos",
+      "startDate": "2024-07-11",
+      "endDate": null,
+      "description": "Reservation platform for places, events, and services.",
+      "isActive": true,
+      "highlights": [
+        "Web development with VueJS",
+        "Internationalization",
+        "Web layout design",
+        "REST API integration",
+        "Code optimization"
+      ],
+      "url": "https://reservandonos.com/",
+      "favicon": "https://www.google.com/s2/favicons?domain_url=reservandonos.com"
+    },
+    {
       "name": "Homelan",
       "startDate": "2021-01-08",
       "endDate": "2023-08-16",
@@ -171,7 +187,8 @@
         "Authentication with JWT",
         "Role validation"
       ],
-      "url": "https://homelanapp.com/"
+      "url": "https://homelanapp.com/",
+      "favicon": "https://www.google.com/s2/favicons?domain_url=homelanapp.com"
     },
     {
       "name": "Ezylegal",
@@ -185,7 +202,8 @@
         "SEO optimization",
         "Migration to microservices with NestJS"
       ],
-      "url": "https://www.ezylegal.in/"
+      "url": "https://www.ezylegal.in/",
+      "favicon": "https://www.google.com/s2/favicons?domain_url=ezylegal.in"
     },
     {
       "name": "Eenviosla",
@@ -198,7 +216,8 @@
         "PayPal and MercadoPago integration",
         "React Native + Expo"
       ],
-      "url": "https://www.instagram.com/eenvios_/"
+      "url": "https://www.instagram.com/eenvios_/",
+      "favicon": "https://www.google.com/s2/favicons?domain_url=instagram.com"
     },
     {
       "name": "Podcasts APP",
@@ -212,7 +231,8 @@
         "Audio Player",
         "Podcast API"
       ],
-      "url": "https://github.com/luifermartinez/podcasts-app"
+      "url": "https://github.com/luifermartinez/podcasts-app",
+      "favicon": "https://www.google.com/s2/favicons?domain_url=github.com"
     },
     {
       "name": "Monoma Pokemon",
@@ -221,7 +241,8 @@
       "description": "Web application for viewing pokemon information.",
       "isActive": true,
       "highlights": ["TechnicalTest", "ReactJS", "TailwindCSS", "API REST"],
-      "url": "https://monoma-tec.vercel.app/"
+      "url": "https://monoma-tec.vercel.app/",
+      "favicon": "https://www.google.com/s2/favicons?domain_url=https://monoma-tec.vercel.app/"
     },
     {
       "name": "Wencold",
@@ -237,7 +258,8 @@
         "Node + Express",
         "MySQL"
       ],
-      "url": null
+      "url": null,
+      "favicon": null
     }
   ]
 }

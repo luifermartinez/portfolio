@@ -8,11 +8,14 @@
 
 <Section {title}>
   <ul>
-    {#each projects as { name, description, url, highlights, isActive }}
+    {#each projects as { name, description, url, highlights, isActive, favicon }}
       <li>
         <article>
           <header>
             <h3>
+              {#if favicon}
+                <img src={favicon} alt={name} width="16" height="16" />
+              {/if}
               <a
                 href={url}
                 title={`Ver el proyecto ${name}`}
@@ -68,6 +71,14 @@
 
   article a:hover {
     text-decoration: underline;
+  }
+
+  article h3 {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
   }
 
   article h3 span {

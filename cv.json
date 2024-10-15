@@ -158,6 +158,22 @@
   "references": [],
   "projects": [
     {
+      "name": "Reservándonos",
+      "startDate": "2024-07-11",
+      "endDate": null,
+      "description": "Plataforma de reservaciones de lugares, eventos y servicios.",
+      "isActive": true,
+      "highlights": [
+        "Desarrollo web con VueJS",
+        "Internacionalización",
+        "Maquetación web",
+        "Integración de API REST",
+        "Optimización de código"
+      ],
+      "url": "https://reservandonos.com/",
+      "favicon": "https://www.google.com/s2/favicons?domain_url=reservandonos.com"
+    },
+    {
       "name": "Homelan",
       "startDate": "2021-01-08",
       "endDate": "2023-08-16",
@@ -169,7 +185,8 @@
         "Autenticación con JWT",
         "Validación de roles"
       ],
-      "url": "https://homelanapp.com/"
+      "url": "https://homelanapp.com/",
+      "favicon": "https://www.google.com/s2/favicons?domain_url=homelanapp.com"
     },
     {
       "name": "Ezylegal",
@@ -183,7 +200,8 @@
         "Optimización SEO",
         "Migración a microservicios con NestJS"
       ],
-      "url": "https://www.ezylegal.in/"
+      "url": "https://www.ezylegal.in/",
+      "favicon": "https://www.google.com/s2/favicons?domain_url=ezylegal.in"
     },
     {
       "name": "Eenviosla",
@@ -196,7 +214,8 @@
         "Integración de PayPal y MercadoPago",
         "React Native + Expo"
       ],
-      "url": "https://www.instagram.com/eenvios_/"
+      "url": "https://www.instagram.com/eenvios_/",
+      "favicon": "https://www.google.com/s2/favicons?domain_url=instagram.com"
     },
     {
       "name": "Podcasts APP",
@@ -210,7 +229,8 @@
         "Audio Player",
         "Podcast API"
       ],
-      "url": "https://github.com/luifermartinez/podcasts-app"
+      "url": "https://github.com/luifermartinez/podcasts-app",
+      "favicon": "https://www.google.com/s2/favicons?domain_url=github.com"
     },
     {
       "name": "Monoma Pokemon",
@@ -219,7 +239,8 @@
       "description": "Aplicación web para ver información de pokemones.",
       "isActive": true,
       "highlights": ["Prueba técnica", "ReactJS", "TailwindCSS", "API REST"],
-      "url": "https://monoma-tec.vercel.app/"
+      "url": "https://monoma-tec.vercel.app/",
+      "favicon": "https://www.google.com/s2/favicons?domain_url=https://monoma-tec.vercel.app/"
     },
     {
       "name": "Wencold",
@@ -235,7 +256,8 @@
         "Node + Express",
         "MySQL"
       ],
-      "url": null
+      "url": null,
+      "favicon": null
     }
   ]
 }
