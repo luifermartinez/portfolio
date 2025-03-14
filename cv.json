@@ -1,15 +1,13 @@
 {
   "basics": {
-    "name": "Luis Fernando Martínez",
-    "label": "Full Stack Developer con 4 años de experiencia",
+    "name": "Luis Fernando Martinez",
+    "label": "Desarrollador Full Stack con 4 años de experiencia",
     "image": "/portfolio/me.png",
     "email": "thelm132@gmail.com",
     "phone": "+58 4125509739",
     "url": "https://www.linkedin.com/in/luifer132/",
-    "summary": "Desarrollador con 4 años de experiencia laboral contribuyendo en proyectos de distintas índoles que abarcan desde el Front-end usando ReactJS, NextJS, VueJS, Svelte, entre otros, maquetación, integraciones de API REST, GraphQL, igualmente apoyando en proyectos de Back-end haciendo uso de NodeJS nativo con Express y algún ORM para la administración de las bases de datos, o Back-ends complejos con NestJS. También cuento con experiencia en desarrollo de aplicaciones móviles usando React Native + Expo.",
+    "summary": "Desarrollador con 4 años de experiencia en Front-end (ReactJS, VueJS, etc.), Back-end (NodeJS, NestJS) y aplicaciones móviles (React Native). Hábil en APIs, UI/UX y optimización.",
     "location": {
-      "address": "",
-      "postalCode": "3001",
       "city": "Barquisimeto",
       "countryCode": "VE",
       "region": "Venezuela"
@@ -30,144 +28,74 @@
   "work": [
     {
       "name": "Reservándonos",
-      "position": "Full Stack Developer",
+      "position": "Desarrollador Full Stack",
       "startDate": "2024-07-11",
-      "endDate": null,
-      "summary": "Desarrollé interfaces web utilizando VueJS, mejorando la interactividad y experiencia del usuario. Implementé la internacionalización del sitio web, permitiendo su uso en múltiples idiomas y expandiendo su alcance global. Maqueté diseños web desde Figma a código, asegurando la fidelidad al diseño original y la responsividad en diversos dispositivos. Integré API REST para conectar el front-end con servicios backend, optimizando el flujo de datos y la funcionalidad del sitio. Optimizé el código, mejorando el rendimiento y la mantenibilidad del proyecto.",
-      "highlights": []
+      "summary": "Desarrollé interfaces web, internacionalización, diseños en Figma, integración de API y optimización de código."
     },
     {
       "name": "Orbis Data",
-      "position": "Full Stack Developer",
+      "position": "Desarrollador Full Stack",
       "startDate": "2023-08-16",
       "endDate": "2024-04-05",
-      "summary": "Participé en el diseño de mockups para presentar al cliente la propuesta de la interfaz web del sistema interno, utilizando herramientas como Figma. Realicé la maquetación de interfaces web con tecnologías como Typescript, React, Mui, Tailwind, Axios, Node.js, HTML y CSS, siguiendo los estándares de calidad y accesibilidad web. Integré el sistema interno con el gestor de contenidos Alfresco, utilizando su API REST. Utilicé herramientas como Docker y SonarLint para facilitar el desarrollo, el despliegue y la revisión del código.",
-      "highlights": []
+      "summary": "Diseñé maquetas, construí interfaces con React, integré Alfresco CMS y utilicé Docker para el despliegue."
     },
     {
-      "name": "Arcángel Soluciones",
-      "position": "Full Stack Developer",
+      "name": "Arcangel Soluciones",
+      "position": "Desarrollador Full Stack",
       "startDate": "2020-07-01",
       "endDate": "2023-08-01",
-      "summary": "Lugar donde adquirí y me desarrollé como desarrollador fullstack, utilizando las tecnologías requeridas para los distintos proyectos que se me fueron asignados. Trabajé en varios proyectos, liderando el diseño UI/UX, la maquetación, el patrón de diseño del proyecto y las metodologías utilizadas. Apliqué los principios SOLID para React, lo que mejoró la manutención del código. Además, optimicé en un 20% el rendimiento de aplicaciones ya en producción, corrigiendo malas prácticas, mejorando la estructura del proyecto y aplicando una buena división de código.",
-      "highlights": []
+      "summary": "Lideré el diseño UI/UX, apliqué principios SOLID, mejoré la calidad del código y optimicé el rendimiento en producción."
     }
   ],
-  "volunteer": [],
   "education": [
     {
       "institution": "Instituto Universitario Jesús Obrero",
-      "url": "https://www.iujobarquisimeto.edu.ve/",
-      "area": "Informática",
-      "studyType": "Técnico Superior Universitario (TSU) en Informática",
+      "description": "Informática",
+      "area": "Técnico Superior Universitario (TSU) en IT",
+      "studyType": "Técnico Superior Universitario (TSU) en IT",
       "startDate": "2017-03-01",
       "endDate": "2022-10-01",
-      "description": "Un profesional técnico en Sistemas de Información que puede realizar análisis, evaluación, diseño, desarrollo e implementación de soluciones informáticas, así como operar y administrar proyectos de diferentes niveles y complejidad con eficacia y eficiencia.",
-      "score": "15.3",
-      "courses": []
+      "score": "15.3"
     }
   ],
-  "awards": [],
-  "certificates": [],
-  "publications": [],
   "skills": [
     {
       "name": "Desarrollo FullStack",
-      "level": "4 años",
-      "keywords": [
-        "Javascript",
-        "Typescript",
-        "React",
-        "NextJS",
-        "Node.js",
-        "Express",
-        "NestJS",
-        "SQL",
-        "MongoDB",
-        "Svelte",
-        "SvelteKit",
-        "VueJS",
-        "HTML",
-        "CSS",
-        "TailwindCSS",
-        "Bootstrap",
-        "Material-UI",
-        "Ant Design"
-      ]
+      "level": "3 años",
+      "keywords": ["React", "VueJS", "Node.js", "NestJS"]
     },
     {
       "name": "Diseño UI/UX",
       "level": "Experimentado",
-      "keywords": ["Diseño de Mockups", "Diseño UI/UX"]
+      "keywords": ["Maquetas", "Diseño UI/UX"]
     },
     {
       "name": "Integración de API",
       "level": "Experimentado",
-      "keywords": ["API REST", "GraphQL"]
-    },
-    {
-      "name": "Integración de WebSockets",
-      "level": "Experimentado",
-      "keywords": ["WebSockets", "socket.io"]
+      "keywords": ["REST API", "GraphQL"]
     },
     {
       "name": "Desarrollo Móvil",
       "level": "Experimentado",
       "keywords": ["React Native", "Expo"]
-    },
-    {
-      "name": "Docker",
-      "level": "Experimentado",
-      "keywords": ["Docker", "Docker Compose"]
-    },
-    {
-      "name": "Integración de Métodos de Pago",
-      "level": "Experimentado",
-      "keywords": ["Stripe", "Paypal", "MercadoPago"]
-    },
-    {
-      "name": "SEO",
-      "level": "Experimentado",
-      "keywords": ["SEO", "OpenGraph", "Twitter Cards"]
-    },
-    {
-      "name": "Optimización de Rendimiento",
-      "level": "Experimentado",
-      "keywords": [
-        "Optimización de Rendimiento Web",
-        "Optimización de Rendimiento Móvil"
-      ]
-    },
-    {
-      "name": "Metodologías Ágiles",
-      "level": "Experimentado",
-      "keywords": ["Scrum", "Kanban"]
     }
   ],
   "languages": [
-    {
-      "language": "Español",
-      "fluency": "Nativo"
-    },
-    {
-      "language": "Inglés",
-      "fluency": "Intermedio"
-    }
+    { "language": "Español", "fluency": "Nativo" },
+    { "language": "Inglés", "fluency": "Intermedio" }
   ],
-  "interests": [],
-  "references": [],
   "projects": [
     {
       "name": "Reservándonos",
       "startDate": "2024-07-11",
       "endDate": null,
-      "description": "Plataforma de reservaciones de lugares, eventos y servicios.",
+      "description": "Plataforma de reservas para lugares, eventos y servicios.",
       "isActive": true,
       "highlights": [
         "Desarrollo web con VueJS",
         "Internacionalización",
-        "Maquetación web",
-        "Integración de API REST",
+        "Diseño de maquetas web",
+        "Integración de REST API",
         "Optimización de código"
       ],
       "url": "https://reservandonos.com/",
@@ -181,7 +109,7 @@
       "isActive": true,
       "highlights": [
         "Desarrollo web con ReactJS",
-        "Integración de API REST",
+        "Integración de REST API",
         "Autenticación con JWT",
         "Validación de roles"
       ],
@@ -192,7 +120,7 @@
       "name": "Ezylegal",
       "startDate": "2022-02-15",
       "endDate": "2023-06-01",
-      "description": "Conexión entre abogados y clientes.",
+      "description": "Conexión abogado-cliente.",
       "isActive": true,
       "highlights": [
         "Mantenimiento web y backend con NextJS y NestJS",
@@ -210,7 +138,7 @@
       "description": "Gestión de envíos de paquetes.",
       "isActive": true,
       "highlights": [
-        "Tracking de conductores en tiempo real",
+        "Seguimiento en tiempo real de conductores",
         "Integración de PayPal y MercadoPago",
         "React Native + Expo"
       ],
@@ -221,43 +149,16 @@
       "name": "Podcasts APP",
       "startDate": "2023-08-11",
       "endDate": "2023-08-15",
-      "description": "Aplicación movil para escuchar podcasts.",
+      "description": "Aplicación móvil para escuchar podcasts.",
       "isActive": true,
       "highlights": [
         "React Native + Expo",
-        "Integración de API REST",
-        "Audio Player",
-        "Podcast API"
+        "Integración de REST API",
+        "Reproductor de audio",
+        "API de podcasts"
       ],
       "url": "https://github.com/luifermartinez/podcasts-app",
       "favicon": "https://www.google.com/s2/favicons?domain_url=github.com"
-    },
-    {
-      "name": "Monoma Pokemon",
-      "startDate": "2023-06-25",
-      "endDate": "2023-06-26",
-      "description": "Aplicación web para ver información de pokemones.",
-      "isActive": true,
-      "highlights": ["Prueba técnica", "ReactJS", "TailwindCSS", "API REST"],
-      "url": "https://monoma-tec.vercel.app/",
-      "favicon": "https://www.google.com/s2/favicons?domain_url=https://monoma-tec.vercel.app/"
-    },
-    {
-      "name": "Wencold",
-      "startDate": "2022-23-04",
-      "endDate": "2022-06-25",
-      "description": "Sistema de gestión de inventario y ventas de productos de refrigeración.",
-      "isActive": false,
-      "highlights": [
-        "ReactJS",
-        "API REST",
-        "JWT Auth",
-        "Validación de roles",
-        "Node + Express",
-        "MySQL"
-      ],
-      "url": null,
-      "favicon": null
     }
   ]
 }

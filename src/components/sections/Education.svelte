@@ -40,11 +40,13 @@
   }
 
   article h3 {
+    font-size: 1rem;
     font-weight: 500;
     color: #111;
   }
 
   article h4 {
+    font-size: 0.85rem;
     font-weight: 400;
     color: #222;
   }

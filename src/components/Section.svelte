@@ -11,13 +11,13 @@
 <style>
   section {
     max-width: 700px;
-    margin: 0 auto 32px;
+    margin: 0 auto 16px;
   }
 
   h2 {
     margin-bottom: 8px;
     font-weight: 700;
     line-height: 1.5;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 </style>

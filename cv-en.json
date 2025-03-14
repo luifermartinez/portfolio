@@ -42,8 +42,9 @@
   "education": [
     {
       "institution": "Instituto Universitario Jesús Obrero",
-      "area": "Informatics",
-      "studyType": "TSU",
+      "description": "Informatics",
+      "area": "Superior University Technician (TSU) in IT",
+      "studyType": "Superior University Technician (TSU) in IT",
       "startDate": "2017-03-01",
       "endDate": "2022-10-01",
       "score": "15.3"

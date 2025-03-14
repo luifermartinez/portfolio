@@ -40,7 +40,6 @@
     {/each}
   </ul>
 </Section>
-
 <style>
   ul {
     display: grid;
@@ -106,5 +105,33 @@
     padding: 0.2rem 0.6rem;
     line-height: 1.2;
     letter-spacing: normal;
+  }
+
+  @media print {
+    ul {
+      display: block;
+    }
+
+    li {
+      display: block;
+      margin-bottom: 1rem;
+    }
+
+    article {
+      border: none;
+      padding: 0;
+    }
+
+    article header, article footer {
+      display: block;
+    }
+
+    article h3 {
+      display: block;
+    }
+
+    article h3 span {
+      display: none;
+    }
   }
 </style>
