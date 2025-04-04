@@ -30,21 +30,21 @@
       "name": "Reservándonos",
       "position": "Desarrollador Full Stack",
       "startDate": "2024-07-11",
-      "summary": "Desarrollé interfaces web, internacionalización, diseños en Figma, integración de API y optimización de código."
+      "summary": "Desarrollé interfaces web, internacionalización, diseños en Figma, integración de API y optimización de código., Implementé sistema de suscripciones con Stripe, incluyendo manejo de estados, renovaciones y cancelaciones en el backend."
     },
     {
       "name": "Orbis Data",
       "position": "Desarrollador Full Stack",
       "startDate": "2023-08-16",
       "endDate": "2024-04-05",
-      "summary": "Diseñé maquetas, construí interfaces con React, integré Alfresco CMS y utilicé Docker para el despliegue."
+      "summary": "Diseñé maquetas, construí interfaces con React, integré Alfresco CMS y utilicé Docker para el despliegue. Desarrollé servicios RESTful y optimicé el rendimiento de las aplicaciones empresariales."
     },
     {
       "name": "Arcangel Soluciones",
       "position": "Desarrollador Full Stack",
       "startDate": "2020-07-01",
       "endDate": "2023-08-01",
-      "summary": "Lideré el diseño UI/UX, apliqué principios SOLID, mejoré la calidad del código y optimicé el rendimiento en producción."
+      "summary": "Lideré el diseño UI/UX, apliqué principios SOLID, mejoré la calidad del código y optimicé el rendimiento en producción. Desarrollé aplicaciones web y móviles, implementé sistemas de autenticación y autorización, y gestioné bases de datos."
     }
   ],
   "education": [

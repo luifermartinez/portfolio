@@ -22,21 +22,21 @@
       "name": "Reservándonos",
       "position": "Full Stack Developer",
       "startDate": "2024-07-11",
-      "summary": "Developed web interfaces, internationalization, Figma layouts, API integration, and code optimization."
+      "summary": "Developed web interfaces, internationalization, Figma designs, API integration and code optimization. Implemented subscription system with Stripe, including state management, renewals and cancellations in the backend."
     },
     {
       "name": "Orbis Data",
       "position": "Full Stack Developer",
       "startDate": "2023-08-16",
       "endDate": "2024-04-05",
-      "summary": "Designed mockups, built interfaces with React, integrated Alfresco CMS, and used Docker for deployment."
+      "summary": "Designed mockups, built React interfaces, integrated Alfresco CMS and used Docker for deployment. Developed RESTful services and optimized enterprise application performance."
     },
     {
       "name": "Arcangel Soluciones",
       "position": "Full Stack Developer",
       "startDate": "2020-07-01",
       "endDate": "2023-08-01",
-      "summary": "Led UI/UX design, applied SOLID principles, improved code quality, and optimized production performance."
+      "summary": "Led UI/UX design, applied SOLID principles, improved code quality and optimized production performance. Developed web and mobile applications, implemented authentication and authorization systems, and managed databases."
     }
   ],
   "education": [
