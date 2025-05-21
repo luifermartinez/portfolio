@@ -6,7 +6,6 @@ import svelte from "@astrojs/svelte";
 export default defineConfig({
   integrations: [svelte()],
   site: "https://luifermartinez.github.io",
-  base: '/portfolio',
   output: 'static',
   build: {
     inlineStylesheets: 'always'
