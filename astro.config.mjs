@@ -11,7 +11,7 @@ export default defineConfig({
     inlineStylesheets: "always",
   },
   server: {
-    port: 3000,
+    port: 3150,
     host: true,
   },
 });
