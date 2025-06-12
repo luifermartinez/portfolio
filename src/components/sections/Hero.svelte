@@ -6,6 +6,7 @@
   import Github from "@/icons/Github.svelte";
   import Linkedin from "@/icons/LinkedIn.svelte";
   import WorldMap from "@/icons/WorldMap.svelte";
+  import WhatsApp from "@/icons/WhatsApp.svelte";
 
   const { name, label, email, image, location, phone, profiles, url } =
     getLocale().basics;
@@ -15,7 +16,17 @@
   const SOCIAL_ICONS: Record<string, any> = {
     GitHub: Github,
     LinkedIn: Linkedin,
+    WhatsApp: WhatsApp
   };
+  
+  // Agregar WhatsApp a los perfiles existentes
+  const whatsappProfile = {
+    network: "WhatsApp",
+    url: "https://wa.me/584125509739",
+    username: "WhatsApp"
+  };
+  
+  const allProfiles = [...profiles, whatsappProfile];
 </script>
 
 <Section>
@@ -58,7 +69,7 @@
           </a>
         {/if}
 
-        {#each profiles as profile}
+        {#each allProfiles as profile}
           <a
             href={profile.url}
             title={`Visitar el perfil de ${name} en ${profile.network}`}
